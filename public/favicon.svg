@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <style>
+    .circle-bg {
+      fill: none;
+      stroke: #1e1e24;
+      stroke-width: 4;
+    }
+    .letter {
+      fill: #1e1e24;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 500;
+      font-size: 34px;
+      text-anchor: middle;
+      dominant-baseline: central;
+    }
+    @media (prefers-color-scheme: dark) {
+      .circle-bg {
+        stroke: #ffffff;
+      }
+      .letter {
+        fill: #ffffff;
+      }
+    }
+  </style>
+  <circle cx="32" cy="32" r="28" class="circle-bg" />
+  <text x="32" y="32" class="letter">R</text>
+</svg>

@@ -1,0 +1,150 @@
+@import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800&f[]=satoshi@400,500,700,900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Satoshi', 'Inter', system-ui, sans-serif;
+  --font-display: 'Cabinet Grotesk', 'Space Grotesk', sans-serif;
+
+  --color-primary: #22d3ee;
+  --color-purple-accent: #a855f7;
+  --color-pink-accent: #f472b6;
+  --color-bg-dark: #030712;
+  --color-card-dark: rgba(17, 24, 39, 0.7);
+  
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+:root {
+  --primary: #22d3ee;
+  --purple-accent: #a855f7;
+  --pink-accent: #f472b6;
+  --bg-color: #030712;
+}
+
+@layer base {
+  body {
+    background-color: #030712;
+    color: #f8fafc;
+    font-family: 'Satoshi', 'Inter', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cabinet Grotesk', 'Space Grotesk', sans-serif;
+  }
+}
+
+@layer utilities {
+  /* High-fidelity Glassmorphic Card */
+  .glass-card {
+    background: rgba(17, 24, 39, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Radial Dot Grid Pattern */
+  .radial-grid {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1.5px, transparent 1.5px);
+    background-size: 40px 40px;
+  }
+
+  /* Premium Cyber Linear Accent Gradient */
+  .bg-cyber-gradient {
+    background: linear-gradient(135deg, #22d3ee 0%, #a855f7 50%, #f472b6 100%);
+  }
+
+  .text-cyber-gradient {
+    background: linear-gradient(135deg, #22d3ee 0%, #a855f7 50%, #f472b6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .border-cyber-gradient {
+    border-image: linear-gradient(135deg, #22d3ee, #a855f7, #f472b6) 1;
+  }
+
+  /* High performance custom transition */
+  .transition-cyber {
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  /* Drift Animations for Ambient Blobs */
+  @keyframes drift-blob-cyan {
+    0% { transform: translate(0px, 0px) scale(1); }
+    33% { transform: translate(60px, -50px) scale(1.15); }
+    66% { transform: translate(-40px, 40px) scale(0.9); }
+    100% { transform: translate(0px, 0px) scale(1); }
+  }
+
+  @keyframes drift-blob-purple {
+    0% { transform: translate(0px, 0px) scale(1); }
+    33% { transform: translate(-50px, 60px) scale(0.85); }
+    66% { transform: translate(50px, -40px) scale(1.1); }
+    100% { transform: translate(0px, 0px) scale(1); }
+  }
+
+  .ambient-blob-cyan {
+    background-color: #06b6d4;
+    opacity: 0.08;
+    filter: blur(130px);
+    animation: drift-blob-cyan 18s ease-in-out infinite;
+  }
+
+  .ambient-blob-purple {
+    background-color: #8b5cf6;
+    opacity: 0.08;
+    filter: blur(130px);
+    animation: drift-blob-purple 22s ease-in-out infinite;
+  }
+
+  /* Scroll Reveal System */
+  .reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s cubic-bezier(0.23, 1, 0.32, 1), transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Alternating Delay utilities */
+  .reveal-delay-100 { transition-delay: 100ms; }
+  .reveal-delay-200 { transition-delay: 200ms; }
+  .reveal-delay-300 { transition-delay: 300ms; }
+  .reveal-delay-400 { transition-delay: 400ms; }
+  .reveal-delay-500 { transition-delay: 500ms; }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(34, 211, 238, 0.2);
+  border-radius: 9999px;
+  border: 2px solid #030712;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(34, 211, 238, 0.4);
+}
+
+/* 3D Card Preserve-3D Container */
+.perspective-container {
+  perspective: 1000px;
+}
+
+.perspective-card {
+  transform-style: preserve-3d;
+}
