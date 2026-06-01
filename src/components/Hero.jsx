@@ -172,7 +172,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-hidden pt-28 pb-12 z-10"
+      className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-hidden pt-28 pb-36 z-10"
     >
       {/* 3D WebGL Background Canvas */}
       <canvas
