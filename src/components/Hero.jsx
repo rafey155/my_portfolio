@@ -201,9 +201,9 @@ const Hero = () => {
 
         {/* 8xl Editorial Typography Header */}
         <h1 className="reveal reveal-delay-100 text-6xl md:text-8xl font-display font-black tracking-tight text-white leading-[0.9] mb-8 max-w-5xl select-none">
-          B.Tech CS Graduate & <br />
+          Transforming Ideas Into <br />
           <span className="text-cyber-gradient filter drop-shadow-[0_0_30px_rgba(34,211,238,0.25)]">
-            Full-Stack Developer
+            Powerful Digital Solutions
           </span>
         </h1>
 
