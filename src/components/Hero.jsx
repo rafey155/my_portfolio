@@ -196,22 +196,20 @@ const Hero = () => {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
           </span>
-          Available for Work
+          Actively Seeking Full-Stack Roles
         </div>
 
         {/* 8xl Editorial Typography Header */}
         <h1 className="reveal reveal-delay-100 text-6xl md:text-8xl font-display font-black tracking-tight text-white leading-[0.9] mb-8 max-w-5xl select-none">
-          Architecting <br />
+          B.Tech CS Graduate & <br />
           <span className="text-cyber-gradient filter drop-shadow-[0_0_30px_rgba(34,211,238,0.25)]">
-            Digital
-          </span>{" "}
-          Experiences
+            Full-Stack Developer
+          </span>
         </h1>
 
         {/* Satoshi Description Text */}
-        <p className="reveal reveal-delay-200 text-[#9ca3af] text-lg md:text-xl font-medium max-w-2xl mx-auto mb-12 leading-relaxed font-sans">
-          I build high-fidelity, interactive, and high-performance digital environments. 
-          Specializing in React, WebGL animations, and pixel-perfect engineering.
+        <p className="reveal reveal-delay-200 text-[#9ca3af] text-lg md:text-xl font-medium max-w-3xl mx-auto mb-12 leading-relaxed font-sans">
+          Building modern, responsive, and high-performance web applications with React.js, Node.js, JavaScript, and modern web technologies. Specializing in REST APIs, database integration, and pixel-perfect responsive design.
         </p>
 
         {/* CTA Buttons */}
