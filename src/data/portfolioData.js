@@ -52,6 +52,22 @@ export const projectsData = [
     githubUrl: "https://github.com/rafey155/Interstellar-Ink.git",
     category: "JavaScript",
   },
+  {
+    id: 5,
+    title: "Exam Prep – Online Examination Preparation Platform",
+    description:
+      "A full-stack online examination preparation platform built to help students prepare for competitive and academic exams, featuring JWT auth, role-based controls, dashboard analytics, and secure exam constructors.",
+    image: "/exam_prep_mockup.png",
+    tags: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Tailwind CSS"],
+    
+    // 🔗 CHANGE YOUR LIVE DEMO LINK HERE:
+    demoUrl: "https://exam-prep-frontend.vercel.app/", 
+    
+    // 🔗 CHANGE YOUR GITHUB REPOSITORY LINK HERE:
+    githubUrl: "https://github.com/rafey155/examPrep.git", 
+    
+    category: "Full Stack, React",
+  },
 ];
 
 export const educationData = [
