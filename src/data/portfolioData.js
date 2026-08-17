@@ -7,7 +7,7 @@ export const profileData = {
   phone: "+91 8318912189",
   github: "https://github.com/rafey155",
   linkedin: "https://www.linkedin.com/in/mohd-rafey-9155692a6/",
-  resumeLink: "https://drive.google.com/file/d/1VYgR1Bpz2Y_LPWXKBDSOrGcAhIKYibH_/view?usp=drive_link",
+  resumeLink: "https://drive.google.com/file/d/13uTi4hrR8E9eJg6gZ5Je_7k6PwMJIE-k/view?usp=sharing",
   location: "India",
 };
 
