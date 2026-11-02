@@ -128,15 +128,35 @@ export const certificationsData = [
 export const experienceData = [
   {
     id: 1,
-    role: "Frontend Developer Intern",
-    company: "Softpro Pvt.Ltd.",
-    duration: "June 2025 - July 2025",
+    role: "LLM Post Training Expert L1",
+    company: "Ethara AI | Gurugram, India",
+    duration: "September 2026 – Present",
     responsibilities: [
-      "Developed responsive UI components using React and Tailwind CSS.",
-      "Collaborated with the design team to implement pixel-perfect layouts.",
-      "Optimized application performance reducing load time by 20%.",
+      "Contribute to LLM post-training and AI evaluation workflows for language and multimodal AI projects.",
+      "Evaluate and validate AI-generated responses for quality, accuracy, and instruction adherence.",
+      "Perform data annotation and prompt-response evaluation to support model quality improvement."
     ],
-    learningOutcomes:
-      "Gained hands-on experience in real-world project development and agile methodologies.",
+    learningOutcomes: ""
   },
+  {
+    id: 2,
+    role: "Python Full Stack Developer Trainee",
+    company: "QSpiders | Mumbai, India",
+    duration: "2026 – Present",
+    responsibilities: [
+      "Develop skills in Python, SQL, HTML, CSS, JavaScript, database management, and web development through practical assignments."
+    ],
+    learningOutcomes: ""
+  },
+  {
+    id: 3,
+    role: "Full Stack Developer Intern",
+    company: "Softpro India Computer Technologies Pvt. Ltd. | Lucknow, India",
+    duration: "May 2025 – July 2025",
+    responsibilities: [
+      "Built 2 web applications using React.js, Node.js, MongoDB, and REST APIs.",
+      "Performed API testing, debugging, and feature validation to improve application reliability."
+    ],
+    learningOutcomes: "Gained hands‑on experience in full‑stack development, API design, and collaborative agile workflows."
+  }
 ];
